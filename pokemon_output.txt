@@ -1,0 +1,907 @@
+ID: 002
+Name: Wooper
+Type: Fire,Grass
+Total: 800
+HP: 227
+Attack: 152
+Defense: 26
+Sp. Atk: 221
+Sp. Def: 18
+Speed: 146
+
+ID: 004
+Name: Larvitar
+Type: Ice
+Total: 800
+HP: 93
+Attack: 5
+Defense: 7
+Sp. Atk: 80
+Sp. Def: 128
+Speed: 121
+
+ID: 005
+Name: Chikorita
+Type: Electric
+Total: 800
+HP: 218
+Attack: 9
+Defense: 68
+Sp. Atk: 2
+Sp. Def: 155
+Speed: 182
+
+ID: 007
+Name: Cyndaquil
+Type: Fire
+Total: 800
+HP: 79
+Attack: 19
+Defense: 69
+Sp. Atk: 211
+Sp. Def: 123
+Speed: 104
+
+ID: 008
+Name: Teddiursa
+Type: Electric
+Total: 800
+HP: 70
+Attack: 88
+Defense: 142
+Sp. Atk: 112
+Sp. Def: 25
+Speed: 253
+
+ID: 010
+Name: Phanpy
+Type: Grass
+Total: 800
+HP: 51
+Attack: 200
+Defense: 16
+Sp. Atk: 245
+Sp. Def: 120
+Speed: 190
+
+ID: 014
+Name: Sudowoodo
+Type: Grass
+Total: 800
+HP: 38
+Attack: 66
+Defense: 220
+Sp. Atk: 40
+Sp. Def: 159
+Speed: 135
+
+ID: 015
+Name: Mareep
+Type: Water
+Total: 800
+HP: 255
+Attack: 140
+Defense: 53
+Sp. Atk: 42
+Sp. Def: 37
+Speed: 105
+
+ID: 016
+Name: Totodile
+Type: Ice,Water
+Total: 800
+HP: 88
+Attack: 207
+Defense: 173
+Sp. Atk: 102
+Sp. Def: 191
+Speed: 114
+
+ID: 017
+Name: Heracross
+Type: Fire,Grass
+Total: 800
+HP: 146
+Attack: 102
+Defense: 176
+Sp. Atk: 111
+Sp. Def: 253
+Speed: 52
+
+ID: 019
+Name: Shadowachu
+Type: Psychic,Water
+Total: 800
+HP: 69
+Attack: 103
+Defense: 220
+Sp. Atk: 212
+Sp. Def: 187
+Speed: 230
+
+ID: 020
+Name: Leafaptor
+Type: Ice,Rock
+Total: 800
+HP: 25
+Attack: 188
+Defense: 11
+Sp. Atk: 213
+Sp. Def: 77
+Speed: 17
+
+ID: 022
+Name: Thunderachu
+Type: Fire
+Total: 800
+HP: 161
+Attack: 140
+Defense: 8
+Sp. Atk: 82
+Sp. Def: 23
+Speed: 242
+
+ID: 024
+Name: Leafite
+Type: Dragon,Electric
+Total: 800
+HP: 246
+Attack: 252
+Defense: 46
+Sp. Atk: 50
+Sp. Def: 13
+Speed: 140
+
+ID: 026
+Name: Flameachu
+Type: Electric,Ghost
+Total: 800
+HP: 49
+Attack: 125
+Defense: 34
+Sp. Atk: 101
+Sp. Def: 45
+Speed: 251
+
+ID: 028
+Name: Stormix
+Type: Ghost,Grass
+Total: 800
+HP: 104
+Attack: 255
+Defense: 177
+Sp. Atk: 74
+Sp. Def: 130
+Speed: 147
+
+ID: 029
+Name: Rockeon
+Type: Water
+Total: 800
+HP: 66
+Attack: 65
+Defense: 170
+Sp. Atk: 43
+Sp. Def: 105
+Speed: 196
+
+ID: 031
+Name: Thunderizard
+Type: Grass,Fire
+Total: 800
+HP: 139
+Attack: 64
+Defense: 164
+Sp. Atk: 96
+Sp. Def: 44
+Speed: 23
+
+ID: 032
+Name: Steeloreon
+Type: Grass
+Total: 800
+HP: 19
+Attack: 44
+Defense: 204
+Sp. Atk: 161
+Sp. Def: 227
+Speed: 65
+
+ID: 034
+Name: Mysticeon
+Type: Ghost
+Total: 800
+HP: 154
+Attack: 155
+Defense: 164
+Sp. Atk: 54
+Sp. Def: 167
+Speed: 211
+
+ID: 035
+Name: Shadowizard
+Type: Ghost,Flying
+Total: 800
+HP: 156
+Attack: 160
+Defense: 48
+Sp. Atk: 160
+Sp. Def: 95
+Speed: 171
+
+ID: 036
+Name: Steeleon
+Type: Grass
+Total: 800
+HP: 119
+Attack: 37
+Defense: 243
+Sp. Atk: 64
+Sp. Def: 22
+Speed: 151
+
+ID: 039
+Name: Thunderoreon
+Type: Ghost
+Total: 800
+HP: 38
+Attack: 193
+Defense: 44
+Sp. Atk: 204
+Sp. Def: 38
+Speed: 204
+
+ID: 040
+Name: Stormdrake
+Type: Ghost
+Total: 800
+HP: 23
+Attack: 190
+Defense: 108
+Sp. Atk: 91
+Sp. Def: 240
+Speed: 93
+
+ID: 042
+Name: Stormeon
+Type: Psychic,Rock
+Total: 800
+HP: 145
+Attack: 72
+Defense: 152
+Sp. Atk: 242
+Sp. Def: 158
+Speed: 100
+
+ID: 043
+Name: Leafix
+Type: Grass,Fire
+Total: 800
+HP: 156
+Attack: 1
+Defense: 207
+Sp. Atk: 209
+Sp. Def: 133
+Speed: 71
+
+ID: 044
+Name: Steelachu
+Type: Grass
+Total: 800
+HP: 80
+Attack: 45
+Defense: 81
+Sp. Atk: 156
+Sp. Def: 49
+Speed: 26
+
+ID: 045
+Name: Flameix
+Type: Electric
+Total: 800
+HP: 164
+Attack: 124
+Defense: 11
+Sp. Atk: 128
+Sp. Def: 10
+Speed: 143
+
+ID: 046
+Name: Thunderight
+Type: Ghost
+Total: 800
+HP: 19
+Attack: 105
+Defense: 87
+Sp. Atk: 217
+Sp. Def: 132
+Speed: 77
+
+ID: 048
+Name: Steelizard
+Type: Fire
+Total: 800
+HP: 229
+Attack: 154
+Defense: 3
+Sp. Atk: 119
+Sp. Def: 231
+Speed: 242
+
+ID: 051
+Name: Crystaldrake
+Type: Rock,Grass
+Total: 800
+HP: 85
+Attack: 97
+Defense: 78
+Sp. Atk: 26
+Sp. Def: 175
+Speed: 244
+
+ID: 053
+Name: Rockoreon
+Type: Water
+Total: 800
+HP: 99
+Attack: 185
+Defense: 29
+Sp. Atk: 69
+Sp. Def: 75
+Speed: 149
+
+ID: 054
+Name: Stormite
+Type: Fire,Psychic
+Total: 800
+HP: 100
+Attack: 214
+Defense: 4
+Sp. Atk: 254
+Sp. Def: 80
+Speed: 148
+
+ID: 055
+Name: Shadowaptor
+Type: Dragon,Psychic
+Total: 800
+HP: 216
+Attack: 10
+Defense: 103
+Sp. Atk: 20
+Sp. Def: 181
+Speed: 21
+
+ID: 056
+Name: Rockonix
+Type: Flying
+Total: 800
+HP: 201
+Attack: 2
+Defense: 20
+Sp. Atk: 66
+Sp. Def: 248
+Speed: 106
+
+ID: 057
+Name: Stormaptor
+Type: Flying
+Total: 800
+HP: 233
+Attack: 231
+Defense: 254
+Sp. Atk: 72
+Sp. Def: 12
+Speed: 80
+
+ID: 059
+Name: Shadowight
+Type: Grass,Ghost
+Total: 800
+HP: 43
+Attack: 177
+Defense: 244
+Sp. Atk: 252
+Sp. Def: 71
+Speed: 67
+
+ID: 060
+Name: Aquaaptor
+Type: Flying,Dragon
+Total: 800
+HP: 116
+Attack: 33
+Defense: 111
+Sp. Atk: 15
+Sp. Def: 35
+Speed: 117
+
+ID: 062
+Name: Thunderdrake
+Type: Water
+Total: 800
+HP: 193
+Attack: 130
+Defense: 102
+Sp. Atk: 33
+Sp. Def: 234
+Speed: 124
+
+ID: 071
+Name: Mysticix
+Type: Electric
+Total: 800
+HP: 173
+Attack: 89
+Defense: 44
+Sp. Atk: 142
+Sp. Def: 15
+Speed: 216
+
+ID: 073
+Name: Aquaizard
+Type: Flying
+Total: 800
+HP: 18
+Attack: 213
+Defense: 105
+Sp. Atk: 198
+Sp. Def: 70
+Speed: 184
+
+ID: 074
+Name: Leafeon
+Type: Grass
+Total: 800
+HP: 249
+Attack: 195
+Defense: 106
+Sp. Atk: 155
+Sp. Def: 146
+Speed: 196
+
+ID: 076
+Name: Flameonix
+Type: Rock
+Total: 800
+HP: 91
+Attack: 81
+Defense: 138
+Sp. Atk: 199
+Sp. Def: 105
+Speed: 36
+
+ID: 077
+Name: Mysticoreon
+Type: Psychic
+Total: 800
+HP: 18
+Attack: 129
+Defense: 79
+Sp. Atk: 161
+Sp. Def: 76
+Speed: 175
+
+ID: 081
+Name: Flameeon
+Type: Electric
+Total: 800
+HP: 86
+Attack: 134
+Defense: 160
+Sp. Atk: 206
+Sp. Def: 75
+Speed: 84
+
+ID: 083
+Name: Flameight
+Type: Psychic,Grass
+Total: 800
+HP: 255
+Attack: 255
+Defense: 133
+Sp. Atk: 197
+Sp. Def: 197
+Speed: 82
+
+ID: 084
+Name: Leafdrake
+Type: Electric
+Total: 800
+HP: 61
+Attack: 207
+Defense: 228
+Sp. Atk: 136
+Sp. Def: 97
+Speed: 4
+
+ID: 089
+Name: Mysticonix
+Type: Ice,Water
+Total: 800
+HP: 190
+Attack: 196
+Defense: 219
+Sp. Atk: 136
+Sp. Def: 91
+Speed: 109
+
+ID: 090
+Name: Flameaptor
+Type: Ghost
+Total: 800
+HP: 114
+Attack: 34
+Defense: 37
+Sp. Atk: 157
+Sp. Def: 174
+Speed: 216
+
+ID: 091
+Name: Stormachu
+Type: Ghost,Rock
+Total: 800
+HP: 18
+Attack: 10
+Defense: 115
+Sp. Atk: 236
+Sp. Def: 189
+Speed: 9
+
+ID: 094
+Name: Stormoreon
+Type: Electric
+Total: 800
+HP: 79
+Attack: 189
+Defense: 143
+Sp. Atk: 11
+Sp. Def: 206
+Speed: 119
+
+ID: 095
+Name: Crystalachu
+Type: Psychic
+Total: 800
+HP: 57
+Attack: 248
+Defense: 107
+Sp. Atk: 60
+Sp. Def: 176
+Speed: 57
+
+Card ID: 001
+Name: Dark Magician
+Type: Fiend,Pyro
+Total: 3000
+Attack: 396
+Defense: 77
+
+Card ID: 003
+Name: Blue-Eyes White Dragon
+Type: Pyro,Zombie
+Total: 3000
+Attack: 427
+Defense: 174
+
+Card ID: 006
+Name: Slifer the Sky Dragon
+Type: Pyro
+Total: 3000
+Attack: 375
+Defense: 452
+
+Card ID: 009
+Name: Obelisk the Tormentor
+Type: Zombie,Pyro
+Total: 3000
+Attack: 68
+Defense: 102
+
+Card ID: 011
+Name: Black Luster Soldier
+Type: Dragon,Spellcaster
+Total: 3000
+Attack: 150
+Defense: 40
+
+Card ID: 012
+Name: Gaia the Fierce Knight
+Type: Dragon
+Total: 3000
+Attack: 14
+Defense: 81
+
+Card ID: 013
+Name: Summoned Skull
+Type: Fiend
+Total: 3000
+Attack: 125
+Defense: 390
+
+Card ID: 018
+Name: Jinzo
+Type: Fiend,Zombie
+Total: 3000
+Attack: 103
+Defense: 70
+
+Card ID: 021
+Name: Red-Eyes Black Dragon
+Type: Pyro,Dragon
+Total: 3000
+Attack: 29
+Defense: 7
+
+Card ID: 023
+Name: Exodia the Forbidden One
+Type: Spellcaster
+Total: 3000
+Attack: 374
+Defense: 178
+
+Card ID: 025
+Name: Fiery Pharaoh
+Type: Warrior
+Total: 3000
+Attack: 139
+Defense: 361
+
+Card ID: 027
+Name: Sorcerous Mage
+Type: Dragon,Aqua
+Total: 3000
+Attack: 474
+Defense: 252
+
+Card ID: 030
+Name: Mystic Knight
+Type: Spellcaster,Dragon
+Total: 3000
+Attack: 53
+Defense: 332
+
+Card ID: 033
+Name: Celestial Mage
+Type: Zombie
+Total: 3000
+Attack: 21
+Defense: 341
+
+Card ID: 037
+Name: Divine Dragon
+Type: Spellcaster
+Total: 3000
+Attack: 96
+Defense: 189
+
+Card ID: 038
+Name: Celestial Knight
+Type: Fiend
+Total: 3000
+Attack: 179
+Defense: 178
+
+Card ID: 041
+Name: Sorcerous Warrior
+Type: Aqua,Warrior
+Total: 3000
+Attack: 226
+Defense: 164
+
+Card ID: 047
+Name: Crimson Mage
+Type: Dragon,Machine
+Total: 3000
+Attack: 483
+Defense: 334
+
+Card ID: 049
+Name: Ancient Dragon
+Type: Rock
+Total: 3000
+Attack: 479
+Defense: 205
+
+Card ID: 050
+Name: Mystic Sorcerer
+Type: Warrior
+Total: 3000
+Attack: 61
+Defense: 313
+
+Card ID: 052
+Name: Dark Pharaoh
+Type: Machine
+Total: 3000
+Attack: 482
+Defense: 236
+
+Card ID: 058
+Name: Divine Guardian
+Type: Dragon
+Total: 3000
+Attack: 172
+Defense: 424
+
+Card ID: 061
+Name: Fiery Mage
+Type: Fiend,Machine
+Total: 3000
+Attack: 91
+Defense: 312
+
+Card ID: 063
+Name: Divine Knight
+Type: Rock
+Total: 3000
+Attack: 14
+Defense: 297
+
+Card ID: 064
+Name: Divine Elemental
+Type: Spellcaster,Wind
+Total: 3000
+Attack: 379
+Defense: 369
+
+Card ID: 065
+Name: Ancient Knight
+Type: Rock
+Total: 3000
+Attack: 7
+Defense: 475
+
+Card ID: 066
+Name: Wicked Sorcerer
+Type: Dragon
+Total: 3000
+Attack: 265
+Defense: 116
+
+Card ID: 067
+Name: Wicked Warrior
+Type: Aqua,Warrior
+Total: 3000
+Attack: 190
+Defense: 270
+
+Card ID: 068
+Name: Mighty Warrior
+Type: Zombie,Rock
+Total: 3000
+Attack: 286
+Defense: 97
+
+Card ID: 069
+Name: Sorcerous Dragon
+Type: Rock
+Total: 3000
+Attack: 430
+Defense: 155
+
+Card ID: 070
+Name: Celestial Emperor
+Type: Machine
+Total: 3000
+Attack: 3
+Defense: 7
+
+Card ID: 072
+Name: Dark Elemental
+Type: Aqua,Pyro
+Total: 3000
+Attack: 445
+Defense: 201
+
+Card ID: 075
+Name: Ancient Warrior
+Type: Wind
+Total: 3000
+Attack: 219
+Defense: 469
+
+Card ID: 078
+Name: Crimson Beast
+Type: Warrior,Spellcaster
+Total: 3000
+Attack: 442
+Defense: 197
+
+Card ID: 079
+Name: Fiery Sorcerer
+Type: Spellcaster,Zombie
+Total: 3000
+Attack: 55
+Defense: 386
+
+Card ID: 080
+Name: Wicked Mage
+Type: Machine,Warrior
+Total: 3000
+Attack: 168
+Defense: 452
+
+Card ID: 082
+Name: Fiery Dragon
+Type: Zombie
+Total: 3000
+Attack: 34
+Defense: 403
+
+Card ID: 085
+Name: Wicked Elemental
+Type: Fiend
+Total: 3000
+Attack: 176
+Defense: 388
+
+Card ID: 086
+Name: Mighty Sorcerer
+Type: Wind
+Total: 3000
+Attack: 50
+Defense: 424
+
+Card ID: 087
+Name: Mystic Pharaoh
+Type: Warrior
+Total: 3000
+Attack: 361
+Defense: 377
+
+Card ID: 088
+Name: Dark Guardian
+Type: Zombie,Wind
+Total: 3000
+Attack: 212
+Defense: 64
+
+Card ID: 092
+Name: Mighty Guardian
+Type: Pyro
+Total: 3000
+Attack: 226
+Defense: 173
+
+Card ID: 093
+Name: Crimson Guardian
+Type: Rock
+Total: 3000
+Attack: 325
+Defense: 458
+
+Card ID: 096
+Name: Mystic Mage
+Type: Spellcaster
+Total: 3000
+Attack: 360
+Defense: 260
+
+Card ID: 097
+Name: Divine Emperor
+Type: Pyro
+Total: 3000
+Attack: 323
+Defense: 345
+
+Card ID: 098
+Name: Mystic Elemental
+Type: Warrior,Machine
+Total: 3000
+Attack: 404
+Defense: 369
+
+Card ID: 099
+Name: Fiery Elemental
+Type: Rock
+Total: 3000
+Attack: 148
+Defense: 372
+
+Card ID: 100
+Name: Mystic Dragon
+Type: Dragon,Machine
+Total: 3000
+Attack: 234
+Defense: 144

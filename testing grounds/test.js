@@ -1,4 +1,4 @@
-const mysql = require("mysql");
+import fs from 'fs';
 
 class Pokemon {
   constructor(pokedexId, name, types, total, hp, attack, defense, spAtk, spDef, speed) {
@@ -25,6 +25,10 @@ function generateRandomName(usedNames, isPokemon) {
   const availableNames = isPokemon ? pokemonNames.filter(name => !usedNames.includes(name)) : yugiohNames.filter(name => !usedNames.includes(name));
 
   if (availableNames.length === 0) {
+    const generatedName = generateRandomGeneratedName(usedNames, isPokemon);
+    if (generatedName) {
+      return generatedName;
+    }
     return `Name ${usedNames.length + 1}`;
   }
 
@@ -33,6 +37,49 @@ function generateRandomName(usedNames, isPokemon) {
   availableNames.splice(randomIndex, 1);
 
   return name;
+}
+
+function generateRandomGeneratedName(usedNames, isPokemon) {
+  const generatedNames = isPokemon ? generateRandomPokemonNames() : generateRandomYugiohNames();
+  const availableGeneratedNames = generatedNames.filter(name => !usedNames.includes(name));
+
+  if (availableGeneratedNames.length === 0) {
+    return null; // No available generated names left
+  }
+
+  const randomIndex = Math.floor(Math.random() * availableGeneratedNames.length);
+  const name = availableGeneratedNames[randomIndex];
+  availableGeneratedNames.splice(randomIndex, 1);
+
+  return name;
+}
+
+function generateRandomPokemonNames() {
+  const generatedNames = [];
+  const prefixes = ["Flame", "Thunder", "Aqua", "Leaf", "Rock", "Mystic", "Shadow", "Crystal", "Steel", "Storm"];
+  const suffixes = ["onix", "izard", "achu", "ite", "drake", "oreon", "ight", "eon", "ix", "aptor"];
+
+  for (const prefix of prefixes) {
+    for (const suffix of suffixes) {
+      generatedNames.push(prefix + suffix);
+    }
+  }
+
+  return generatedNames;
+}
+
+function generateRandomYugiohNames() {
+  const generatedNames = [];
+  const adjectives = ["Dark", "Mystic", "Crimson", "Ancient", "Fiery", "Mighty", "Celestial", "Divine", "Sorcerous", "Wicked"];
+  const nouns = ["Dragon", "Sorcerer", "Knight", "Beast", "Warrior", "Mage", "Pharaoh", "Guardian", "Elemental", "Emperor"];
+
+  for (const adjective of adjectives) {
+    for (const noun of nouns) {
+      generatedNames.push(adjective + " " + noun);
+    }
+  }
+
+  return generatedNames;
 }
 
 function generateRandomPokemon(pokedexId, usedNames) {
@@ -113,67 +160,14 @@ for (let i = 1; i <= 100; i++) {
   }
 }
 
-const connection = mysql.createConnection({
-  host: "127.0.0.1",
-  port: 3306,
-  user: "root",
-  password: "bvtpassword",
-  database: "pokemonDB",
-});
+const outputFile = 'pokemon_output.txt';
+const outputText = pokemonList.map(pokemon => pokemon.toString()).join('\n\n');
+const yugiohOutputText = yugiohCardList.map(card => card.toString()).join('\n\n');
 
-connection.connect((error) => {
-  if (error) {
-    console.error("Error connecting to the database: ", error);
+fs.writeFile(outputFile, outputText + '\n\n' + yugiohOutputText, err => {
+  if (err) {
+    console.error('Error saving output file:', err);
   } else {
-    console.log("Connected to the database.");
-    createAlumniTable();
+    console.log(`Pokemon and Yu-Gi-Oh! output saved to "${outputFile}".`);
   }
 });
-
-function createAlumniTable() {
-  const createTableQuery = `
-    CREATE TABLE alumni (
-      id INT AUTO_INCREMENT PRIMARY KEY,
-      name VARCHAR(255),
-      type VARCHAR(255),
-      total INT,
-      attack INT,
-      defense INT
-    )
-  `;
-
-  connection.query(createTableQuery, (error, results, fields) => {
-    if (error) {
-      console.error("Error creating alumni table: ", error);
-    } else {
-      console.log("Alumni table created successfully.");
-      insertAlumniData();
-    }
-  });
-}
-
-function insertAlumniData() {
-  const insertQueries = [];
-
-  pokemonList.forEach(pokemon => {
-    const { name, types, total, attack, defense } = pokemon;
-    const insertQuery = `INSERT INTO alumni (name, type, total, attack, defense) VALUES ('${name}', '${types}', ${total}, ${attack}, ${defense})`;
-    insertQueries.push(insertQuery);
-  });
-
-  yugiohCardList.forEach(card => {
-    const { name, types, total, attack, defense } = card;
-    const insertQuery = `INSERT INTO alumni (name, type, total, attack, defense) VALUES ('${name}', '${types}', ${total}, ${attack}, ${defense})`;
-    insertQueries.push(insertQuery);
-  });
-
-  if (insertQueries.length > 0) {
-    connection.query(insertQueries.join("; "), (error, results, fields) => {
-      if (error) {
-        console.error("Error inserting data into alumni table: ", error);
-      } else {
-        console.log("Data inserted into alumni table successfully.");
-      }
-    });
-  }
-}
