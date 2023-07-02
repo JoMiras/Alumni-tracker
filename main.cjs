@@ -3,11 +3,11 @@ const mysql = require("mysql");
 
 // Create a connection to the database
 const connection = mysql.createConnection({
-  host: "127.0.0.1",
+  host: "10.0.0.177",
   port: 3306,
-  user: "root",
-  password: "bvtpassword",
-  database: "alumniDatabase",
+  user: "remote",
+  password: "password",
+  database: "DataB",
 });
 
 // Connect to the database
